@@ -1,0 +1,114 @@
+/* General Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* لون خلفية هادئ */
+    color: #333; /* لون النص الأساسي */
+    text-align: center;
+}
+
+header {
+    background-color: #6db3f2; /* لون هادئ من الأزرق الفاتح */
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+}
+
+h2, h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #4a90e2; /* لون هادئ لعنوان الأقسام */
+}
+
+button {
+    background-color: #58a6ff; /* أزرق هادئ */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #4a8dd6; /* تأثير عند المرور بالماوس */
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccd6e0;
+    border-radius: 5px;
+    background-color: #f7f9fc; /* خلفية فاتحة للنماذج */
+}
+
+input:focus {
+    outline: none;
+    border-color: #6db3f2;
+}
+
+footer {
+    background-color: #6db3f2; /* نفس اللون الأزرق الهادئ في الفوتر */
+    color: white;
+    padding: 10px 0;
+}
+
+/* تحسين مظهر الصور */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-img {
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+}
+
+.ebook img, .book-recommendation img {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
+
+.book-recommendation {
+    display: inline-block;
+    margin: 10px;
+}
